@@ -1,0 +1,387 @@
+
+body{
+    background-color: white;
+    /*background-color: rgb(15, 11, 11);*/
+    background-color: #4170c7;
+
+}
+.Head{
+    width: 98%;
+    height: 420px;
+    display: flex;
+    /*background-color: rgb(15, 11, 11);*/
+    background-color: #4170c7;
+
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.foto{
+    margin-left: 100px;
+    margin-top: 12px;
+
+}
+
+#photo img{
+    border-radius: 51%;
+    margin-left: 320px;
+   /* opacity: 75%;*/
+
+}
+
+
+.name1{
+    width: 120px;
+    margin-top: 10px;
+    /*margin-left: 470px;*/
+    font-family: cursive;
+    color:white;
+    font-size: large;
+    margin-left: 345px;
+    margin-top: 20px; 
+}
+
+#Fronted{
+    margin-left: 340px;
+    color: white;
+    font-size: large;
+    font-family: cursive;
+}
+
+#Fronted1{
+    margin-left: -30px;
+    color: white;
+    font-size: large;
+    font-family: cursive;
+}
+
+
+#Btn1{
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 100px;
+  height: 30px;
+  border-radius: 12%;
+  cursor: pointer;
+}
+
+#Btn1:hover{
+  background-color: rgb(14, 193, 206);
+}
+
+/*==================== ***Main*** ============================*/
+.main_column{
+    width: 98%;
+    height: 1250px;
+   /* background-color: rgb(15, 11, 11);*/
+    margin-top: 1px;  
+    margin-left: 15px; 
+    border-radius: 10%;
+}
+
+
+
+.Berufs-col {
+    background-color:white;
+    width: 85%;
+    height: 190px;
+    margin-top: -20px;
+    margin-left: 90px;
+    border-radius: 5%;
+}
+
+
+.flexbox{
+    width: 90%;
+    height: 125px;
+   /* background-color: darkorange;*/
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flexelement{
+    width: 20%;
+    height: 30px;
+    /*background-color:grey;*/
+    position: relative;
+    margin-top: 8px;
+    margin-right: 5px;
+    margin-left: 5px;
+    /*align-items: stretch;*/
+   /* border-right: 2px solid; */  border-right: 2px solid #4170c7;
+    line-height: 20px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+   
+
+
+}
+
+.flexelement2{
+    width: 90%;
+    height: 30px;
+    /*background-color:grey;*/
+    margin-top: 10px;
+    /*margin-left: 2px;*/
+    /*align-items: stretch;
+    /*border-left: 2px solid black;*/
+    line-height: 18px;
+
+}
+.flexelement3{
+  margin-top: 5px;
+  line-height: -1px;
+
+}
+
+.flexelement3 i{
+  margin-left: 12px;
+  color: rgb(22, 16, 16);
+}
+/*==================== ***Programiersprachen*** ============================*/
+
+.Prog-col{
+    background-color:white;
+    width: 85%;
+    height: 360px;
+    margin-top: 1px;
+    margin-left: 90px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: wrap;
+    border-radius: 2%;
+
+}
+
+.flexelement-prog{
+    width: 55%;
+    height: 200px;
+    /*background-color:grey;*/
+    position: relative;
+    margin-top: 48px;
+    margin-left: -140px;
+    margin-right: 40px;
+    align-items: stretch;
+   /* border-right: 2px solid black;*/
+    padding: auto;
+}
+
+.flexelement-prog2{
+    width: 55%;
+    height: 205px;
+    /*background-color:grey;*/
+    position: relative;
+    margin-top: 48px;
+    margin-left: -70px;
+    margin-right: -5px;
+    align-items: stretch;
+   /* border-right: 2px solid black;*/
+    padding: auto;
+}
+
+.Überschrift{
+    margin-left: 25px;
+    margin-top: 2px;
+}
+
+#prolang{
+    margin-left: 15px;
+}
+
+.container{
+    margin-left: 110px;
+    margin-top: -35px;
+}
+* {box-sizing: border-box}
+.container {
+    width:60%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: -10px;
+    padding-bottom: -120px;
+    color: white;
+  }
+  
+  .html {width: 90%; background-color: #4170c7;}
+  .css {width: 80%; background-color: #4170c7;}
+  .js {width: 65%; background-color: #4170c7;}
+  /*.php {width: 60%; background-color: #3922b9;}*/
+
+  .REST  {width: 50%; background-color: #4170c7;}
+  .Bootstrap{width: 60%; background-color: #4170c7;}
+  .jQuery {width: 65%; background-color: #4170c7;}
+  
+  .Überschrift-5{
+    position: relative;
+    font-family:cursive;
+    margin-top: 30px;
+    text-decoration: underline;
+    margin-left: -10px;
+  }
+   
+  .t-img{
+    width: 30%;
+    display: flex;
+    
+  }
+
+  .t-img img{
+   /* width: 30%;*/
+    border-radius: 30%;
+    margin-left: -150px;
+    margin-right: 175px;
+    opacity: 1.0;
+    background: white;
+    box-sizing: content-box;
+    position: relative;
+    border: indianred;
+    justify-content: center;
+    flex-direction: row;
+    
+  }
+/*==================== ***Fremdsprachen*** ============================*/
+
+.flexbox-container{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 77%;
+    height: 260px;
+   /* background-color:grey;*/
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.flexelement-item {
+    width: 120px;
+    height: 240px;
+    /*background: rgb(129, 169, 221);*/
+    margin: 5px 5px;
+}
+
+.flex-item1 {
+ flex-grow: 0;
+}
+
+.flex-item2{  
+    flex-grow: 1;
+}
+
+
+.flex-subitem2{
+    width: 50%;
+    height: 52px;
+   /* border-left: black 2px solid;
+    border-right: black 2px solid;*/
+    border-left: #4170c7 2px solid;
+    border-right:#4170c7 2px solid;
+    /*margin: 3px 3px;*/
+    border-radius: 5%;
+    flex-grow: 2;
+}
+
+img{
+    border-radius: 5%;
+    margin: 1px 1px;
+    padding: 5px 5px;
+}
+
+.checked {
+    margin-top: 20px;
+    padding: 0.5px 0.5px;
+    color: rgba(24, 33, 37, 0.815);
+   /* border-right: black;*/
+  }
+
+  .Überschrift-4{
+      margin-left: -150px;
+      color: rgb(19, 7, 2);
+      font-family:cursive;
+      margin-top: 7px;
+  }
+
+  #It-pr{
+    margin-left: -150px;
+  }
+
+  .hobbies{
+      margin-left:-150px;
+  }
+
+  .hobby{
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px 5px 5px 25px;
+    background: #4170c7;
+    position: relative;
+    font-size: 1.2em;
+  }
+
+  .hobby:before{
+    content: "\f004";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    top: 6px;
+    left: 1px;
+  }
+
+  /*=============================***Footer***=========================*/
+
+ .Footer{
+    width: 85%;
+    height: 146px;
+    background-color:white;
+    margin-top: 1px;
+    margin-left: 90px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: wrap;
+    border-radius: 4%;
+ }
+
+ /*--------------------contact--------------------------------*/
+#kon{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.contact-field{
+  width: 250px;
+  height: 50px;
+  /*background-color: teal;*/
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding: 12px 12px;
+  border-right: 1px solid #4170c7 ;
+  border-bottom: 1px solid #4170c7; 
+}
+
+.fa{
+  margin-left: 10px;
+  color:rgba(24, 33, 37, 0.815);
+}
+
+.flex-footer{
+ 
+  width: 70%;
+  height: 45px;
+  /*background-color: rosybrown;*/
+  position: absolute;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 5px;
+  border-radius: 3%;
+  border-right: 2.5px solid #4170c7;
+  border-bottom: 2.5px solid #4170c7; 
+}
+
